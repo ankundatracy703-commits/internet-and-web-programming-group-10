@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard - DineEasy</title>
+    <title>Admin Dashboard - DINE EASY </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="all.min.css">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
@@ -191,10 +191,10 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>John Doe</td>
-                                    <td>john@example.com</td>
-                                    <td>(555) 111-2222</td>
-                                    <td>5</td>
+                                    <td>GROUP 10</td>
+                                    <td>dianlatib23@egmail.com</td>
+                                    <td>0730657961</td>
+                                    <td>10</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
