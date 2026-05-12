@@ -1,11 +1,7 @@
 -- DineEasy Restaurant Management System Database
--- Run this script to create the database
-
--- Create database
 CREATE DATABASE IF NOT EXISTS dineeasy;
 USE dineeasy;
 
--- Users table (customers and admins)
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -16,7 +12,6 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Menu items table
 CREATE TABLE IF NOT EXISTS menu_items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -28,7 +23,6 @@ CREATE TABLE IF NOT EXISTS menu_items (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Reservations table
 CREATE TABLE IF NOT EXISTS reservations (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
@@ -43,7 +37,6 @@ CREATE TABLE IF NOT EXISTS reservations (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL
 );
 
--- Orders table
 CREATE TABLE IF NOT EXISTS orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
@@ -53,7 +46,6 @@ CREATE TABLE IF NOT EXISTS orders (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL
 );
 
--- Order items table
 CREATE TABLE IF NOT EXISTS order_items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT NOT NULL,
@@ -64,7 +56,6 @@ CREATE TABLE IF NOT EXISTS order_items (
     FOREIGN KEY (menu_item_id) REFERENCES menu_items(id) ON DELETE CASCADE
 );
 
--- Insert sample menu items
 INSERT INTO menu_items (name, description, price, category) VALUES
 ('Caesar Salad', 'Fresh romaine lettuce with caesar dressing and croutons', 12.99, 'appetizer'),
 ('Garlic Bread', 'Toasted bread with garlic butter and herbs', 6.99, 'appetizer'),
