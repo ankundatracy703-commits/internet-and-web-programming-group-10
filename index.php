@@ -41,7 +41,7 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to DineEasy</h1>
+            <h1>Welcome to Dine Easy</h1>
             <p>Experience culinary excellence from the comfort of your home</p>
             <div class="hero-buttons">
                 <a href="menu.php" class="btn btn-primary">View Menu</a>
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Why Choose DineEasy?</h2>
-                <p>We bring the restaurant experience to you</p>
+                <p>We bring the restaurant experience to you with different types of meals local foods and international</p>
             </div>
             <div class="feature-grid">
                 <div class="feature-card">
@@ -63,7 +63,7 @@
                     <p>Browse our extensive menu featuring cuisines from around the world</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🚚</div>
+                    <div class="feature-icon">🚚🍲</div>
                     <h3>Fast Delivery</h3>
                     <p>Quick and reliable delivery to your doorstep</p>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="feature-card">
                     <div class="feature-icon">⭐</div>
                     <h3>Quality Service</h3>
-                    <p>Our staff is dedicated to providing excellent service</p>
+                    <p>Our staff is dedicated to providing excellent service at affordable prices</p>
                 </div>
             </div>
         </div>
@@ -89,12 +89,12 @@
             </div>
             <div class="menu-grid">
                 <div class="menu-item" data-category="1">
-                    <div class="menu-image">🍴</div>
+                    <div class="menu-image">🍥</div>
                     <div class="menu-info">
                         <h3>Bruschetta</h3>
                         <p>Toasted bread with fresh tomatoes and basil</p>
                         <div class="menu-price">
-                            <span class="price">$8.99</span>
+                            <span class="price">Ugs 10,000</span>
                             <button class="add-to-cart" onclick="addToCart(1, 'Bruschetta', 8.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <h3>Chicken Wings</h3>
                         <p>Crispy fried wings with choice of sauce</p>
                         <div class="menu-price">
-                            <span class="price">$12.99</span>
+                            <span class="price">Ugs 18,000</span>
                             <button class="add-to-cart" onclick="addToCart(2, 'Chicken Wings', 12.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                         <h3>Soup of the Day</h3>
                         <p>Ask your server for today's selection</p>
                         <div class="menu-price">
-                            <span class="price">$6.99</span>
+                            <span class="price">Ugs 12,000</span>
                             <button class="add-to-cart" onclick="addToCart(3, 'Soup of the Day', 6.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         <h3>Grilled Salmon</h3>
                         <p>Fresh salmon with herbs and lemon butter</p>
                         <div class="menu-price">
-                            <span class="price">$24.99</span>
+                            <span class="price">Ugs 200,000</span>
                             <button class="add-to-cart" onclick="addToCart(4, 'Grilled Salmon', 24.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                         <h3>Beef Steak</h3>
                         <p>Juicy steak cooked to your preference</p>
                         <div class="menu-price">
-                            <span class="price">$29.99</span>
+                            <span class="price">augs 300,000</span>
                             <button class="add-to-cart" onclick="addToCart(5, 'Beef Steak', 29.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                         <h3>Chicken Parmesan</h3>
                         <p>Breaded chicken with marinara and cheese</p>
                         <div class="menu-price">
-                            <span class="price">$18.99</span>
+                            <span class="price">Ugs29,000</span>
                             <button class="add-to-cart" onclick="addToCart(6, 'Chicken Parmesan', 18.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         <h3>Pasta Primavera</h3>
                         <p>Fresh vegetables with garlic olive oil</p>
                         <div class="menu-price">
-                            <span class="price">$16.99</span>
+                            <span class="price">Ugs 50,000</span>
                             <button class="add-to-cart" onclick="addToCart(7, 'Pasta Primavera', 16.99)">Add to Cart</button>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         <h3>Fish and Chips</h3>
                         <p>Crispy battered fish with fries</p>
                         <div class="menu-price">
-                            <span class="price">$17.99</span>
+                            <span class="price">Ufa 60,000</span>
                             <button class="add-to-cart" onclick="addToCart(8, 'Fish and Chips', 17.99)">Add to Cart</button>
                         </div>
                     </div>
