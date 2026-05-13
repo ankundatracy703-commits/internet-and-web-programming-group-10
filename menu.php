@@ -70,8 +70,8 @@ include 'config.php';
                 <div class="menu-item" data-category="1">
                     <div class="menu-image">🍴</div>
                     <div class="menu-info">
-                        <h3>Bruschetta</h3>
-                        <p>Toasted bread with fresh tomatoes and basil</p>
+                        <h3>Bread</h3>
+                        <p>Toasted bread with eggs</p>
                         <div class="menu-price">
                             <span class="price">UGX 8,000</span>
                             <button class="add-to-cart" onclick="addToCart(1, 'Bruschetta', 8000)">Add to Cart</button>
@@ -95,7 +95,7 @@ include 'config.php';
                     <div class="menu-image">🥩</div>
                     <div class="menu-info">
                         <h3>Beef Steak</h3>
-                        <p>Juicy steak cooked to your preference</p>
+                        <p>Juicy steak cooked </p>
                         <div class="menu-price">
                             <span class="price">UGX 20,000</span>
                             <button class="add-to-cart" onclick="addToCart(6, 'Beef Steak', 20000)">Add to Cart</button>
@@ -113,21 +113,21 @@ include 'config.php';
 </div>
 
 <div class="menu-item">
-    <img src="images/luwombo.jpg" alt="Chicken">
+   <span>🍗 Chicken Luwombo</span>
     <h3>Chicken </h3>
     <p> Ugandan chicken.</p>
     <span class="price">UGX 18,000</span>
 </div>
 
 <div class="menu-item">
-    <img src="images/rolex.jpg" alt="Rolex">
-    <h3>roasted meat</h3>
-    <p>roasted meat.</p>
+    <span>🌯 Rolex</span>
+    <h3>rolex</h3>
+    <p>grilled eggs covered in chapatti.</p>
     <span class="price">UGX 5,000</span>
 </div>
 
 <div class="menu-item">
-    <img src="images/posho.jpg" alt="Posho and Beans">
+    <span>🍛 Posho & 🫘 Beans</span>
     <h3>Posho and Beans</h3>
     <p>Popular student meal at BSU.</p>
     <span class="price">UGX 10,000</span>
