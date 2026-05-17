@@ -65,7 +65,7 @@
                             <tbody id="ordersTable">
                                 <tr>
                                     <td>#1001</td>
-                                    <td>John Doe</td>
+                                    <td>Latib</td>
                                     <td>2 items</td>
                                     <td>$45.98</td>
                                     <td><span class="status-badge status-preparing">Preparing</span></td>
@@ -76,7 +76,7 @@
                                 </tr>
                                 <tr>
                                     <td>#1002</td>
-                                    <td>Jane Smith</td>
+                                    <td>Tracy</td>
                                     <td>3 items</td>
                                     <td>$62.97</td>
                                     <td><span class="status-badge status-pending">Pending</span></td>
@@ -87,7 +87,7 @@
                                 </tr>
                                 <tr>
                                     <td>#1003</td>
-                                    <td>Mike Johnson</td>
+                                    <td>Bechhum</td>
                                     <td>1 item</td>
                                     <td>$24.99</td>
                                     <td><span class="status-badge status-ready">Ready</span></td>
@@ -117,7 +117,7 @@
                                 <tr>
                                     <td>#1</td>
                                     <td>Alice Brown</td>
-                                    <td>(555) 123-4567</td>
+                                    <td>0730657961</td>
                                     <td>2026-04-20</td>
                                     <td>7:00 PM</td>
                                     <td>4</td>
@@ -191,15 +191,15 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>John Doe</td>
-                                    <td>john@example.com</td>
-                                    <td>(555) 111-2222</td>
+                                    <td>latib</td>
+                                    <td>latib@example.com</td>
+                                    <td>0730657961</td>
                                     <td>5</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Jane Smith</td>
-                                    <td>jane@example.com</td>
+                                    <td>tracy</td>
+                                    <td>tracy@example.com</td>
                                     <td>(555) 333-4444</td>
                                     <td>3</td>
                                 </tr>
