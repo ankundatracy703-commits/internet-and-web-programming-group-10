@@ -94,7 +94,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-section">
-                    <h3>DineEasy</h3>
+                    <h3>DINE EASY</h3>
                     <p>Your favorite restaurant, now just a click away.</p>
                 </div>
                 <div class="footer-section">
